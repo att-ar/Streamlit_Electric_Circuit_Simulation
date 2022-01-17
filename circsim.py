@@ -1,5 +1,3 @@
-#Attar Aziz
-#20968047
 #Che181: Chemical Engineering Design Studio 2
 #Milestone 1: Circuit Simulation
 
