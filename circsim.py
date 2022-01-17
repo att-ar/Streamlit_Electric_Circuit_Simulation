@@ -11,7 +11,7 @@ import schemdraw
 import schemdraw.elements as elm
 from schemdraw.elements import Resistor as R
 
-st.title("Milestone 1: Circuit Simulation by Attar A.")
+st.title("Milestone 1: Circuit Simulation")
 "_Che181: Chemical Engineering Design Studio 2_"
 ""
 
