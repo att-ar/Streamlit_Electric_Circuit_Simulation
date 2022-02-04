@@ -15,7 +15,7 @@ st.title("Milestone 1: Circuit Simulation")
 "_Che181: Chemical Engineering Design Studio 2_"
 ""
 
-"$\colorbox{blue}{-}$" "$\large\\textnormal { Open the sidebar in the top left to get started!}$"
+st.markdown("$\colorbox{blue}{-}$", "$\large\\textnormal { Open the sidebar in the top left to get started!}$")
 
 sidebar = st.sidebar
 with sidebar: #everything in the following scope of this with statement will be in the sidebar
