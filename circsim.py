@@ -375,6 +375,7 @@ if not par_series:
         #append the input voltage minus the sum of all the voltage drops up to the given resistor
 
     ax.plot(y_values, "r--o")
+    ax.set_xtickmarks(np.arange(1,num_r+1))
     ax.set_title("Total Voltage vs Resistor in Series", fontsize=16)
     ax.set_ylim(0)
 else: #parallel circuits
@@ -394,6 +395,7 @@ else: #parallel circuits
         #then I make a range between those two values
         #x values is a list from the first resistor on path to the last resistor on the path
         ax.plot(x_values, y_values, "--o", label = f"Path {i+1}")
+    ax.set_xtickmarks(np.arange(1,ith_resistor))
     ax.set_ylim(0)
     ax.set_title("Total Voltage vs Parallel Resistors on a Given Path", fontsize = 14)
     ax.legend()
