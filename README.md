@@ -1,4 +1,8 @@
 # Streamlit_Electric_Circuit_Simulation
+
+## Link to Streamlit App:
+https://share.streamlit.io/att-ar/streamlit_electric_circuit_simulation/main/circsim.py
+
 CHE181: Chemical Engineering Design Studio 2. Milestone 1: Circuit Simulation
 
 This script requires Streamlit and Schemdraw to be installed locally.
