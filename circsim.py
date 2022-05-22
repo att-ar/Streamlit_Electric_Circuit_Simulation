@@ -354,14 +354,14 @@ for volt_drop in range(len(voltage_drop_at_ith_resistor)):
 ""
 ""
 
-"$\colorbox{purple}{-}$""$\large\\textnormal{ Circuit:}$"
+st.markdown("$\colorbox{purple}{-}$""$\large\\textnormal{ Circuit:}$", unsafe_allow_html = True)
 if not par_series: #series circut
     circuit_drawer(num_r, ohm_per_r, current)
 else: #parallel circuit
     circuit_drawer(num_r, ohm_per_r, current, list_pathway_current, num_r_per_path)
 
 ""
-"$\colorbox{purple}{-}$""$\large\\textnormal{ Graph:}$"
+st.markdown("$\colorbox{purple}{-}$""$\large\\textnormal{ Graph:}$", unsafe_allow_html = True)
 fig,ax = plt.subplots(1)
 ax.set_ylabel("Voltage (V)", fontsize = 12)
 ax.set_xlabel("Resistor Number", fontsize = 12)
