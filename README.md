@@ -4,8 +4,6 @@ Link to [Streamlit App](https://share.streamlit.io/att-ar/streamlit_electric_cir
 
 CHE181: Chemical Engineering Design Studio 2. Milestone 1: Circuit Simulation
 
-This script requires Streamlit and Schemdraw to be installed locally.
-
 Goal was to create a User friendly interface using Streamlit, the Python package, where a circuit simulation can be run.
 The User should be able to choose an input voltage, a number of resistors and their resistances.
   I also added the option to have resistors in series or in parallel.
