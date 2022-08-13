@@ -9,6 +9,6 @@ The User should be able to choose an input voltage, a number of resistors and th
   I also added the option to have resistors in series or in parallel.
 The ouput had to be the Total Current and the Voltage Drop at each resistor, along with a standard circuit diagram or a plot of the voltage profile.
 
-I used Schemdraw, another Python package, to create the standard circuit diagram.
-I used Matplotlib.pyplot to graph the voltage profile.
-I used Streamlit as required to make it interactive and easy to follow.
+- I used Schemdraw, another Python package, to create the standard circuit diagram.
+- I used Matplotlib.pyplot to graph the voltage profile.
+- I used Streamlit as required to make it interactive and easy to follow.
